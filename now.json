@@ -3,11 +3,8 @@
     "name": "aerodenton-proxy-api",
     "builds": [
         {
-            "src": "app.py",
-            "use": "@liudonghua123/now-flask",
-            "config": {
-                "maxLambdaSize": "30mb"
-            }
+            "src": "*.py",
+            "use": "@now/python"
         }
     ],
     "routes": [
